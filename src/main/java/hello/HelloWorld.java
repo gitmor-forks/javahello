@@ -1,10 +1,11 @@
-// Your First Program
+package hello;
 
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!"); 
-	t2();
-	}
+public class HelloWorld {
+  public static void main(String[] args) {
+    Greeter greeter = new Greeter();
+    System.out.println(greeter.sayHello());
+    t2();
+  }
 
     public static void t2() {
     	int height = 10;
